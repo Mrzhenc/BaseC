@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASM_SRCS	Debug/sources.mk	/^ASM_SRCS := $/;"	m
+BitMap	main.c	/^struct BitMap{$/;"	s	file:
+C_DEPS	Debug/sources.mk	/^C_DEPS := $/;"	m
+C_SRCS	Debug/sources.mk	/^C_SRCS := $/;"	m
+DEBUG	stu.h	15;"	d
+EXECUTABLES	Debug/sources.mk	/^EXECUTABLES := $/;"	m
+EXIT_FAILED	stu.h	16;"	d
+EXIT_SUCCESS	stu.h	17;"	d
+LIBS	Debug/objects.mk	/^LIBS :=$/;"	m
+OBJS	Debug/sources.mk	/^OBJS := $/;"	m
+OBJ_SRCS	Debug/sources.mk	/^OBJ_SRCS := $/;"	m
+O_SRCS	Debug/sources.mk	/^O_SRCS := $/;"	m
+RM	Debug/makefile	/^RM := rm -rf$/;"	m
+STU	stu.h	/^}STU,*pSTU;$/;"	t	typeref:struct:Stu
+STU_H_	stu.h	9;"	d
+SUBDIRS	Debug/sources.mk	/^SUBDIRS := \\$/;"	m
+S_UPPER_SRCS	Debug/sources.mk	/^S_UPPER_SRCS := $/;"	m
+Stu	stu.h	/^typedef struct Stu{$/;"	s
+USER_OBJS	Debug/objects.mk	/^USER_OBJS :=$/;"	m
+a	main.c	/^	int a:2;$/;"	m	struct:BitMap	file:
+age	stu.h	/^	int age;$/;"	m	struct:Stu
+b	main.c	/^	int b:3;$/;"	m	struct:BitMap	file:
+c	main.c	/^	int c:10;$/;"	m	struct:BitMap	file:
+create_head_node	stu.c	/^pSTU create_head_node()$/;"	f
+create_node	stu.c	/^struct Stu *create_node()$/;"	f
+d	main.c	/^	int d:15;$/;"	m	struct:BitMap	file:
+delete_node_info	stu.c	/^void delete_node_info(char *name)$/;"	f
+free_link_node	stu.c	/^void free_link_node()$/;"	f
+init_node_info	stu.c	/^void init_node_info(pSTU stu, int age, char *name, char sex)$/;"	f
+link_head	main.c	/^pSTU link_head;$/;"	v
+main	main.c	/^int main(void)$/;"	f
+name	stu.h	/^	char name[20];$/;"	m	struct:Stu
+next	stu.h	/^	struct Stu *next;$/;"	m	struct:Stu	typeref:struct:Stu::Stu
+pSTU	stu.h	/^}STU,*pSTU;$/;"	t	typeref:struct:Stu
+print_node	stu.c	/^void print_node()$/;"	f
+print_stu_info	stu.c	/^void print_stu_info(pSTU node)$/;"	f
+search_node	stu.c	/^pSTU search_node(char *name)$/;"	f
+sex	stu.h	/^	char sex;$/;"	m	struct:Stu
